@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './App.css';
 const App = () => {
-    const [result, setResult] = useState("dsdsa")
+    const [result, setResult] = useState("Welcome")
     const handleClick = (e) =>{
         setResult(result.concat(e.target.name))
     }
